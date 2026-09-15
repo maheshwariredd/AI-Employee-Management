@@ -1,0 +1,194 @@
+.admin-settings-layout {
+  min-height: 100vh;
+  display: flex;
+  background: #f8fafc;
+}
+
+.admin-settings-main {
+  width: calc(100% - 255px);
+  margin-left: 255px;
+}
+
+.admin-settings-content {
+  padding: 34px;
+}
+
+.admin-settings-header {
+  margin-bottom: 28px;
+}
+
+.admin-settings-header > p {
+  margin-bottom: 7px;
+  color: #4f46e5;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.admin-settings-header h1 {
+  margin: 0 0 7px;
+  color: #111827;
+  font-size: 30px;
+}
+
+.admin-settings-header span {
+  color: #64748b;
+  font-size: 14px;
+}
+
+.admin-settings-success {
+  max-width: 850px;
+  margin-bottom: 20px;
+  padding: 12px 15px;
+  background: #ecfdf5;
+  color: #047857;
+  border-radius: 8px;
+  font-size: 13px;
+}
+
+.admin-settings-card {
+  max-width: 850px;
+  margin-bottom: 22px;
+  background: white;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+}
+
+.admin-settings-card-header {
+  padding: 22px 24px;
+  border-bottom: 1px solid #e2e8f0;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: #4f46e5;
+}
+
+.admin-settings-card-header h2 {
+  margin: 0 0 4px;
+  font-size: 18px;
+  color: #111827;
+}
+
+.admin-settings-card-header p {
+  margin: 0;
+  color: #94a3b8;
+  font-size: 12px;
+}
+
+.admin-settings-form {
+  padding: 24px;
+}
+
+.admin-settings-group {
+  margin-bottom: 18px;
+}
+
+.admin-settings-group:last-child {
+  margin-bottom: 0;
+}
+
+.admin-settings-group label {
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: #334155;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.admin-settings-group input {
+  width: 100%;
+  height: 44px;
+  padding: 0 12px;
+  border: 1px solid #dbe2ea;
+  border-radius: 8px;
+  outline: none;
+  color: #334155;
+}
+
+.admin-settings-group input:focus {
+  border-color: #4f46e5;
+  box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.08);
+}
+
+.admin-settings-toggle-list {
+  padding: 5px 24px;
+}
+
+.admin-settings-toggle-item {
+  padding: 19px 0;
+  border-bottom: 1px solid #f1f5f9;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.admin-settings-toggle-item:last-child {
+  border-bottom: none;
+}
+
+.admin-settings-toggle-item > div {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.admin-settings-toggle-item strong {
+  color: #334155;
+  font-size: 14px;
+}
+
+.admin-settings-toggle-item span {
+  color: #94a3b8;
+  font-size: 12px;
+}
+
+.admin-settings-toggle-item input {
+  width: 19px;
+  height: 19px;
+  cursor: pointer;
+}
+
+.admin-settings-actions {
+  max-width: 850px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.admin-settings-actions button {
+  min-height: 43px;
+  padding: 0 18px;
+  border: none;
+  border-radius: 8px;
+  background: #4f46e5;
+  color: white;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.admin-settings-actions button:hover {
+  background: #4338ca;
+}
+
+@media (max-width: 800px) {
+  .admin-settings-main {
+    width: calc(100% - 210px);
+    margin-left: 210px;
+  }
+}
+
+@media (max-width: 650px) {
+  .admin-settings-main {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .admin-settings-content {
+    padding: 22px 15px;
+  }
+}
